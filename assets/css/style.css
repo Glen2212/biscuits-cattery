@@ -5,5 +5,72 @@
 
 header {
     background-color: #ace3fc;
-    font-family: libre baskerville, serif;
+    font-family: 'Libre Baskerville', serif;
+    padding: 0 2rem;
+    display: flex; 
+    box-shadow: 0 2px 2px #3c3c3c;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4rem;
+    color: #3c3c3c;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: #3c3c3c;
+    margin: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: #3c3c3c;
+    margin: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #3c3c3c;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+i {
+    font-size: 180%;
+    padding: 5%;
+    color: #3c3c3c;
+}
+
+footer {
+    background-color: #ace3fc;
 }
