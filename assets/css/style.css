@@ -13,63 +13,64 @@ header {
     align-items: baseline;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 4rem;
     color: #3c3c3c;
     margin: 0;
     text-align: center;
     text-decoration: underline;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 h3 {
-    font-family: 'Libre Baskerville', serif;
     font-size: 1.5rem;
-    color: #3c3c3c;
-    text-align: center;
-    text-decoration: underline;
 }
 
 p {
     font-family: 'Libre Baskerville', serif;
-    font-size: 1rem;
-    color: #3c3c3c;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2rem;
     color: #3c3c3c;
     margin: 0;
     text-align: center;
-    text-decoration: underline;
-}
-
-
-.center {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    font-size: 1rem;
     padding-bottom: 30px;
 }
 
+
 #social-networks {
-    text-align: center;
     padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
     list-style-type: none;
 }
 
 i {
-    font-size: 180%;
-    padding: 5%;
     color: #3c3c3c;
 }
 
 footer {
     background-color: #ace3fc;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
